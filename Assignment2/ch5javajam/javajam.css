@@ -12,11 +12,11 @@ nav a {text-decoration: none;}
 
 h1 {
 	background-color: #D2B48C;
-	font-family: "Georgia","Tims New Roman", /*serif*/
+	font-family: "Georgia","Tims New Roman"; /*serif*/
 }
 
 h2 {
-	font-family: "Georgia","Tims New Roman", "sans-serif";
+	font-family: "Georgia","Tims New Roman"; /*serif*/
 }
 
 h3 {
@@ -29,7 +29,7 @@ dt {
 }
 
 ul {
-	image
+	list-style-image: url('marker.gif');
 }
 
 footer {
