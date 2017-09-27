@@ -46,6 +46,16 @@ nav a {text-decoration: none;
 	color: #095807;
 }
 
+table, td, th {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th {
+    padding: 6px;
+	background: #D2B48C;
+}
+
 h1 {
 	background-color: #D2B48C;
 	font-family: "Georgia","Tims New Roman"; /*serif*/
@@ -78,6 +88,25 @@ dt {
 ul {
 	list-style-image: url('marker.gif');
 }
+
+#gallery { position: relative; }
+#gallery ul { width: 250px; 
+             list-style-type: none; }
+#gallery li { display: inline; 
+              float: none; 
+			  padding: 10px; }
+#gallery img { border-style: none; }
+#gallery a { text-decoration: none; 
+             color: #333; 
+			 font-style: italic; }
+
+#gallery span { display: none; }    
+#gallery a:hover span { display: block; 
+                        position: absolute;
+					    top: 10px; 
+						left: 300px; 
+						text-align: center; }
+
 
 footer {
 	background-color: #D2B48C; 
